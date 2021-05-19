@@ -17,6 +17,8 @@ namespace ticketsDPCSharp
             t1_1.Add(t1_1_1);
 
             t1.Print();
+
+            Console.WriteLine(CheckMultiplicity.Check(t1));
         }
     }
 }
