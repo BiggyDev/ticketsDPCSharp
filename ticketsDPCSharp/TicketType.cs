@@ -11,6 +11,7 @@ namespace ticketsDPCSharp
         public TicketType(String label)
         {
             Label = label;
+            TicketTypes = new List<TicketType>();
         }
 
         public void Add(TicketType ticketType)
